@@ -5,6 +5,7 @@ testing_samples
 NOK/*
 OK/*
 config*
+!config/.gitkeep
 wheelhouse*
 *comparison_report*
 work/

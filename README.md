@@ -17,13 +17,13 @@ Efter hver validering genereres en **Excel-rapport (XLSX)** med resultaterne.
 
 ## 🧩 Indhold
 
-- [Forudsætninger](#forudsætninger)
-- [Installation og kloning](#installation-og-kloning)
-- [Mappestruktur](#mappestruktur)
-- [Bygning af Docker-billede](#bygning-af-docker-billede)
+- [Forudsætninger](#-forudsætninger)
+- [Installation og kloning](#-kloning--opdatering-med-git)
+- [Mappestruktur](#-mappestruktur)
+- [Bygning af Docker-billede](#bygning-af-docker-image)
 - [Kørsel af validator](#kørsel-af-validator)
   - [Interaktiv kørsel](#interaktiv-kørsel)
-- [Output og rapport](#output-og-rapport)
+- [Output og rapport](#-output)
 - [Ændring af sprog](#-skift-sprog-senere)
 - [Opdatering med Git](#opdatering-med-git)
 
