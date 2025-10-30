@@ -7,5 +7,6 @@ OK/*
 config*
 wheelhouse*
 *comparison_report*
+work/
 !work/in/.gitkeep
 !work/Tjekket/.gitkeep

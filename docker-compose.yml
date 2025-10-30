@@ -1,8 +1,8 @@
 services:
-  ufst-validator:
+  danish-saft-validator:
     build: .
-    image: ufst-validator:latest
-    container_name: ufst-validator
+    image: danish-saft-validator:latest
+    container_name: danish-saft-validator
     tty: true
     environment:
       TZ: Europe/Copenhagen
