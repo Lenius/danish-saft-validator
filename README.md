@@ -152,6 +152,6 @@ services:
 Kør derefter:
 ```bash
 docker compose build
-docker compose run --rm validator
+docker compose run --rm danish-saft-validator
 ```
 
