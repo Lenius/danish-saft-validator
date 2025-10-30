@@ -1,0 +1,9 @@
+.idea
+__pycache__
+venv*
+testing_samples
+NOK/*
+OK/*
+config*
+wheelhouse*
+*comparison_report*

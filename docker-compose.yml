@@ -1,0 +1,13 @@
+services:
+  ufst-validator:
+    build: .
+    image: ufst-validator:latest
+    container_name: ufst-validator
+    tty: true
+    environment:
+      TZ: Europe/Copenhagen
+      # Valgfrit: sæt for non-interaktiv kørsel
+      # XML_PATH: /work/in/example.xml
+    volumes:
+      - ./work:/work          # XML-filer og rapporter
+      - ./config:/app/config  # gem config.ini mellem kørsler
