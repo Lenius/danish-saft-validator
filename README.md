@@ -13,8 +13,33 @@ Validatoren kontrollerer blandt andet:
 
 Efter hver validering genereres en **Excel-rapport (XLSX)** med resultaterne.
 
----
+### 🐧 Eksempel – Bash (Linux/macOS)
 
+```bash
+# Interaktiv kørsel (du bliver spurgt om sprog og XML-fil)
+docker run --rm -it \
+  -v "$(pwd)/work:/work" \
+  -v "$(pwd)/config:/app/config" \
+  danish-saft-validator:latest
+# Eksempel på input:
+# dk
+# /work/in/test.xml
+```
+
+### 🐧 Eksempel – PowerShell (Windows)
+
+```bash
+# Interaktiv kørsel (du bliver spurgt om sprog og XML-fil)
+docker run --rm -it \
+  -v "$(pwd)/work:/work" \
+  -v "$(pwd)/config:/app/config" \
+  danish-saft-validator:latest
+# Eksempel på input:
+# dk
+# /work/in/test.xml
+```
+
+---
 ## 🧩 Indhold
 
 - [Forudsætninger](#-forudsætninger)
@@ -154,4 +179,3 @@ Kør derefter:
 docker compose build
 docker compose run --rm danish-saft-validator
 ```
-
