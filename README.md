@@ -16,6 +16,9 @@ Efter hver validering genereres en **Excel-rapport (XLSX)** med resultaterne.
 ### 🐧 Eksempel – Bash (Linux/macOS)
 
 ```bash
+# Download image
+docker pull ghcr.io/lenius/danish-saft-validator:latest
+
 # Interaktiv kørsel (du bliver spurgt om sprog og XML-fil)
 docker run --rm -it \
   -v "$(pwd)/work:/work" \
@@ -29,6 +32,9 @@ docker run --rm -it \
 ### 🐧 Eksempel – PowerShell (Windows)
 
 ```bash
+# Download image
+docker pull ghcr.io/lenius/danish-saft-validator:latest
+
 # Interaktiv kørsel (du bliver spurgt om sprog og XML-fil)
 docker run --rm -it \
   -v "$(pwd)/work:/work" \
