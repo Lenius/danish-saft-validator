@@ -23,12 +23,9 @@ Efter hver validering genereres en **Excel-rapport (XLSX)** med resultaterne.
 - [Bygning af Docker-billede](#bygning-af-docker-billede)
 - [Kørsel af validator](#kørsel-af-validator)
   - [Interaktiv kørsel](#interaktiv-kørsel)
-  - [Automatiseret kørsel (non-interaktiv)](#automatiseret-kørsel-non-interaktiv)
 - [Output og rapport](#output-og-rapport)
-- [Ændring af sprog](#ændring-af-sprog)
+- [Ændring af sprog](#-skift-sprog-senere)
 - [Opdatering med Git](#opdatering-med-git)
-- [Fejlfinding](#fejlfinding)
-- [Eksempel på .gitignore](#eksempel-på-gitignore)
 
 ---
 
